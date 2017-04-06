@@ -1,0 +1,48 @@
+tr {
+   line-height: 50px;
+   min-height: 50px;
+   height: 50px;
+}
+
+#game-board{
+  text-align: center;
+  width: 40%;
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#up-key{
+  background-color: black;
+  vertical-align: middle;
+}
+
+#left-key{
+  background-color: black;
+  vertical-align: middle;
+}
+
+#down-key{
+  background-color: grey;
+  vertical-align: middle;
+}
+
+#right-key{
+  background-color: black;
+  vertical-align: middle;
+}
+
+#key-table{
+  font-size: 150%;
+  color: black;
+  text-align: center;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.key-row{
+  line-height: 35px;
+  min-height: 35px;
+  height: 35px;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  <!-- Used Google Chrome Web Browser -->
+
+    <meta charset="utf-8">
+    <title>Homework 3 Game</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+    <script src='Homework3.js'></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>Homework 3: Marvel Scavenger Hunt</h1>
+        <h3>Created by: Joseph Crisolo</h3>
+      </div>
+      <p id="player-info"></p>
+      <p id="game-messages">You start on the current red square. Click a move button.</p>
+
+      <table id="game-board" class="table table-bordered">
+        <!-- Row 1 -->
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <!-- Row 2 -->
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <!-- Row 3 -->
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <!-- Row 4 -->
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <!-- Row 5 -->
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <!-- Row 6 -->
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <!-- Row 7 -->
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <!-- Row 8 -->
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+
+
+      <table id="key-table" class="table table-bordered">
+        <tr class="key-row" >
+          <td></td>
+          <td id="up-key" class="key-row" ><input type="button" id="up" name="up" value="UP"/></td>
+          <td></td>
+        </tr>
+        <tr class="key-row" >
+            <td id="left-key"><input type="button" id="left" name="left" value="LEFT"/></td>
+            <td id="down-key"><input type="button" id="down" name="down" value="DOWN"/></td>
+            <td id="right-key"><input type="button" id="right" name="right" value="RIGHT"/></td>
+        </tr>
+      </table>
+
+      <input type="button" id="quit" name="quit" value="Quit Game"/>
+
+      <h3>Color Key:</h4>
+      <h4 style="color:red">Blank</h4>
+      <h4 style="color:gray">Wall</h4>
+      <h4 style="color:yellow">Prize</h4>
+      <h4 style="color:blue">Challenge</h4>
+      <h4 style="color:green">Goal</h4>
+
+    </div>
+  </body>
+</html>
